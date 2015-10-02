@@ -12,7 +12,7 @@ CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = """
     tet
-    fanstatic
+    fanstatic==1.0a5
 """.split()
 
 setup(name='tet.fanstatic',
