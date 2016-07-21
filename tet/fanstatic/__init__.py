@@ -83,6 +83,7 @@ class TetFanstaticTween:
             if (c and needed.has_resources()
                 and ('/html' in c or '/xhtml' in c)):
 
+                needed.resources()
                 result = self.injector(response.body,
                                        needed,
                                        request,
